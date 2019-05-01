@@ -1,0 +1,15 @@
+{
+  "name": "yahoofinance-worker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "datetime": "^0.0.3",
+    "json2csv": "^4.5.0",
+    "moment-timezone": "^0.5.25"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
