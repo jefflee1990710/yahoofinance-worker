@@ -26,6 +26,7 @@ async function getData(code, start, end, interval){
         let timestamp = timestamp_list[i]
         let record = {
             time : moment(new Date(timestamp * 1000)).tz('Hongkong').format(),
+            ts : timestamp,
             high : high_list[i],
             low : low_list[i],
             open : open_list[i],
